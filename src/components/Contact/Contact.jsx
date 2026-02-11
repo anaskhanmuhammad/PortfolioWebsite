@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import profile from "../../src/assets/Mention-amico.svg";
 
 const Contact = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
@@ -189,7 +190,7 @@ const Contact = () => {
               <div className="relative z-10 p-8">
                 <img
                   // src="https://illustrations.popsy.co/amber/message-sent.svg"
-                  src="../../src/assets/Mention-amico.svg"
+                  src={profile}
                   alt="Contact illustration"
                   className="relative w-full max-w-lg h-auto animate-float drop-shadow-2xl filter brightness-110 group-hover:scale-105 transition-transform duration-500"
                 />
