@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import profile from "../../src/assets/Mention-amico.svg";
+import profile from "../../assets/Mention-amico.svg";
 
 const Contact = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
