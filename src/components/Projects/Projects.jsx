@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import Talkify from "../../assets/Talkify.jpeg";
+import Techprephub from "../../assets/Techprephub.png";
+import Zentron from "../../assets/Zentron.png";
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -11,9 +14,9 @@ const Projects = () => {
       title: 'Talkify',
       description: 'Talkify is a real-time chat application developed using the MERN stack (MongoDB, Express.js, React, Node.js) with Socket.io for instant messaging. It features a complete user authentication system with avatar selection, real-time message delivery, message deletion, and online user status indicators. The application is styled using Tailwind CSS, providing a clean, modern, and responsive user interface. This project showcases full-stack development, real-time communication handling, and scalable application design.',
       techStack: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'Tailwind CSS'],
-      thumbnail: '../../src/assets/Talkify.jpeg',
+      thumbnail: Talkify,
       media: [
-        { type: 'image', url: '../../src/assets/Talkify.jpeg' },
+        { type: 'image', url: Talkify },
         // { type: 'image', url: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop' },
         // { type: 'image', url: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=800&fit=crop' },
       ],
@@ -25,9 +28,9 @@ const Projects = () => {
       title: 'TechPrep Hub',
       description: 'TechPrep Hub is an interactive web platform built using the MERN stack (MongoDB, Express.js, React, Node.js) with ShadCN UI, developed during a hackathon as a team project. The platform allows users to explore and practice tech interview questions through a clean and intuitive interface. Authenticated users can upload their own question collections, choose to keep them public or private, and download collections in text format. This project highlights collaborative development, frontend-focused UI design, and user-driven content management.',
       techStack: ['React', 'Node.js', 'MongoDB', 'ShadCN UI'],
-      thumbnail: '../../src/assets/Techprephub.png',
+      thumbnail: Techprephub,
       media: [
-        { type: 'image', url: '../../src/assets/Techprephub.png' },
+        { type: 'image', url: Techprephub },
         // { type: 'image', url: 'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=1200&h=800&fit=crop' },
       ],
       githubLink: 'https://github.com/anaskhanmuhammad/IBA-Hackathon',
@@ -38,9 +41,9 @@ const Projects = () => {
       title: 'Zentron',
       description: 'Zentron is a secure transaction platform developed as a team project using Geth, Solidity, Web3.js, Node.js, Express.js, and React. The system integrates blockchain technology with a verification layer to validate financial transactions before execution. Each transaction initiated by a user is first assessed for authenticity, and only approved transactions are executed and permanently recorded on the blockchain. This project demonstrates secure transaction workflows, smart contract integration, and full-stack blockchain application development.',
       techStack: ['Geth', 'Solidity', 'Web3.js', 'Node.js', 'Express.js', 'React'],
-      thumbnail: '../../src/assets/Zentron.png',
+      thumbnail: Zentron,
       media: [
-        { type: 'image', url: '../../src/assets/Zentron.png' },
+        { type: 'image', url: Zentron },
         // { type: 'image', url: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&h=800&fit=crop' },
         // { type: 'image', url: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=1200&h=800&fit=crop' },
       ],
